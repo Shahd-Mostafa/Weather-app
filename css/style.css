@@ -1,0 +1,182 @@
+* {
+  font-family: sans-serif;
+}
+body {
+  background-color: #1e202c;
+}
+.navbar-toggler {
+  border: 2px solid transparent;
+  border-radius: 50%;
+  padding: 20px 18px;
+  transition: all 0.2s ease;
+}
+.navbar-toggler i {
+  color: white;
+  transition: all 0.2s ease;
+}
+.navbar-toggler:hover {
+  border: 2px solid #009ad8;
+}
+.navbar-toggler:hover i {
+  color: #009ad8;
+}
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 rgb(0, 154, 216);
+}
+::placeholder {
+  color: #5f636a !important;
+  font-size: 15px;
+}
+a {
+  color: white !important;
+}
+nav {
+  background-color: #1e202c;
+}
+/* nav .container-md {
+  padding: 40px 80px;
+} */
+.logo-text .weather {
+  font-size: 16px;
+  padding: 0;
+}
+.logo-text .small-line {
+  font-size: 10px;
+  color: rgb(191, 193, 200) !important;
+  padding: 2px;
+}
+.nav-item a {
+  font-size: 14px;
+  margin: 0px 6px;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  padding: 3px 25px !important;
+}
+.nav-item:hover a,
+.nav-item a.active {
+  color: rgb(0, 154, 216) !important;
+  border-color: rgb(0, 154, 216);
+}
+.bg {
+  background-image: url(../images/banner.png);
+  background-size: cover;
+  min-height: 350px;
+  padding: 70px 0px;
+}
+.search-bar,
+.message {
+  background-color: #1e202c;
+  border: none;
+  border-radius: 30px;
+  color: white !important;
+  padding: 16px 20px;
+}
+.search-bar:focus,
+.message:focus {
+  outline: none;
+  box-shadow: none;
+  background-color: #1e202c;
+}
+.search-sec button {
+  position: absolute;
+  top: 4px;
+  right: 5px;
+  bottom: 5px;
+  border-radius: 30px;
+  background-color: rgb(0, 154, 216) !important;
+  border: none;
+  padding: 0px 40px;
+  color: white !important;
+}
+.weather-status {
+  margin-top: -150px;
+  margin-bottom: 50px;
+}
+.weather-status p,
+.weather-status span {
+  color: rgb(191, 193, 200);
+}
+.weather-status .current-status {
+  color: rgb(0, 154, 216);
+  font-size: 14px;
+  font-weight: 300;
+}
+.city {
+  font-size: 18px;
+}
+.weather-icon {
+  vertical-align: middle;
+  display: inline-block;
+}
+.card {
+  --bs-card-bg: none !important;
+}
+.card-header p {
+  font-size: 14px;
+}
+.current-degree {
+  font-size: 5.625rem;
+  color: white;
+  vertical-align: middle;
+  display: inline-block;
+}
+.weather-info span {
+  font-size: 14px;
+  margin-right: 17px;
+}
+.main-degree {
+  font-size: 1.5rem;
+  color: white !important;
+}
+.card1 .card-header,
+.card3 .card-header {
+  background-color: #2d313d;
+}
+.card2 .card-header {
+  background-color: #222430;
+}
+.card1 .card-body {
+  background-color: #323544;
+}
+.card2 .card-body {
+  background-color: #262a36;
+}
+.card3 .card-body {
+  background-color: #323544;
+}
+footer {
+  background-color: #262a36;
+  padding: 50px 0px;
+}
+footer button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  bottom: 5px;
+  border-radius: 30px !important;
+  background-color: rgb(0, 154, 216) !important;
+  border: none !important;
+  padding: 10px 20px !important;
+  color: white !important;
+  font-size: 14px !important;
+}
+footer a {
+  width: 40px;
+  height: 40px;
+  background-color: #1e202c;
+  display: inline-block;
+  border-radius: 50%;
+  color: #009ad8 !important;
+  text-align: center;
+  line-height: 2;
+  font-size: 1.25rem;
+  transition: all 0.3s ease;
+}
+footer a:hover {
+  background-color: #009ad8;
+  color: white !important;
+}
+footer p {
+  color: rgb(191, 193, 200);
+  font-size: 0.875rem;
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-md pb-5 pt-4 mt-2">
+          <div class="logo d-flex align-items-center ms-md-5 ps-md-4">
+            <img
+              src="images/logo@2x.png"
+              alt="weather app logo"
+              style="width: 65px"
+            />
+            <div class="logo-text d-flex flex-column ps-3">
+              <a class="navbar-brand weather fw-bold" href="index.html"
+                >Weather</a
+              >
+              <a class="navbar-brand small-line fw-light" href="index.html"
+                >tagline goes here</a
+              >
+            </div>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span><i class="fa-solid fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul
+              class="navbar-nav ms-auto my-3 my-md-0 text-center me-md-5 pe-md-3"
+            >
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Live Cameras</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Photos</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://routeweather.netlify.app/contact"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="bg search-sec">
+        <div class="container px-2 px-md-5">
+          <div class="px-0 px-md-5">
+            <div class="position-relative">
+              <input
+                id="search-ip"
+                class="search-bar w-100"
+                type="text"
+                placeholder="Find your location..."
+              />
+              <button type="submit" class="btn">Find</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="weather-status">
+        <div class="container px-2 px-md-5">
+          <div class="row g-0 px-2 px-md-5" id="weatherStorage"></div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container px-3 px-md-5">
+        <div class="px-0 px-md-5 row">
+          <div class="col-md-8">
+            <div class="position-relative mb-4">
+              <input
+                class="message w-100"
+                type="text"
+                placeholder="Enter your email to subscribe..."
+              />
+              <button type="button" class="btn">Subscribe</button>
+            </div>
+          </div>
+          <div class="col-md-3 offset-md-1">
+            <div class="icons">
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+              <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+            </div>
+          </div>
+        </div>
+        <p class="px-0 px-md-5 mt-2">
+          Copyright 2014 Company name. Designed by Themezy. All rights reserved
+        </p>
+      </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
